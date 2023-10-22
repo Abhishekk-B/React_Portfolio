@@ -1,0 +1,84 @@
+
+.contact{
+    width: 80%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .c-left{
+    height: 100%;
+    width: 40%;
+  }
+  
+  .c-right{
+    height: 100%;
+    width: 60%;
+  }
+  
+  .c-left{
+    display: flex;
+    flex-direction: column;
+    padding: 15vmin 2vmin 0 8vmin;
+  }
+  
+  .c-left>p:nth-child(1){
+    font-size: xx-large;
+    font-weight: 600;
+  }
+  
+  .c-left>p:nth-child(2){
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .c-left>p:nth-child(2) span{
+    color: blue;
+  }
+  
+  .c-right{
+    padding: 3vmin 12vmin;
+  }
+  .c-right form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 3vmin 5vmin;
+    margin-top: 5vmin;
+  }
+  
+  .formInputs{
+    margin: 1.5rem 0;
+  }
+
+  @media screen and (min-width:768px) and (max-width:1100px){
+    .c-left{
+      padding: 15vmin 2vmin 0 2vmin;
+    }  
+    .c-right{
+      padding: 3vmin 4vmin;
+    }
+        
+    }
+  
+@media screen and (max-width:768px) {
+  .contact{
+    /* width: 90%; */
+    flex-direction: column;
+    height: auto;
+  }
+  .c-left{
+    width: 100%;
+    text-align: center;
+  }
+  .c-right{
+    width: 100%;
+    padding: 5vmin 6vmin;
+  }
+
+  .c-right form{
+    padding: 5vmin 5vmin;
+    margin-top: 5vmin;
+  }
+  .formInputs{
+    margin: 1.5rem 0;
+  }
+}

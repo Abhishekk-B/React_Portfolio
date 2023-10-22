@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe86162e.css",
+    "main.js": "/static/js/main.6cb149e2.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/firstImage.jpg": "/static/media/firstImage.b09b221b000b8c40ad1e.jpg",
+    "static/media/sentimentAnalysis.jpg": "/static/media/sentimentAnalysis.313033c0032187fb4cae.jpg",
+    "static/media/medicalCost.jpg": "/static/media/medicalCost.411db49824e310f745d0.jpg",
+    "static/media/DigitalResume.pdf": "/static/media/DigitalResume.344e13c8047002c8a546.pdf",
+    "static/media/stockMarket.jpg": "/static/media/stockMarket.d1838c6ea1aaa22a2dcd.jpg",
+    "static/media/weatherApp.png": "/static/media/weatherApp.ced5d2f874d92e289f4d.png",
+    "static/media/GuessNumber.png": "/static/media/GuessNumber.b4ca7503fb8379e52e32.png",
+    "static/media/ToDoApp.jpg": "/static/media/ToDoApp.96766e4bda2d9c319a61.jpg",
+    "static/media/BackgroundChanger.jpg": "/static/media/BackgroundChanger.c8a4a6d7eec5c1d4a0d1.jpg",
+    "static/media/passwordGenerator.jpg": "/static/media/passwordGenerator.66f86cd699b66a890cb8.jpg",
+    "static/media/BMIapp.png": "/static/media/BMIapp.19e3885bd1c3a5590df7.png",
+    "index.html": "/index.html",
+    "main.fe86162e.css.map": "/static/css/main.fe86162e.css.map",
+    "main.6cb149e2.js.map": "/static/js/main.6cb149e2.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe86162e.css",
+    "static/js/main.6cb149e2.js"
+  ]
+}

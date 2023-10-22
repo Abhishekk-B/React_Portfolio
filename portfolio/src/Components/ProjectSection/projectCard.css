@@ -1,0 +1,58 @@
+.projectCard{
+    height: 80%;
+    width: 30%;
+    /* background-color: olive; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    position: relative;
+    padding-top: 1rem;
+    /* border: 1px solid black; */
+}
+
+.projectCard img{
+    width: 80%;
+    height: 80%;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid black;
+    border-radius: 1rem;
+}
+.projectCard h5{
+    font-size: 1.2rem;
+}
+
+.projectCard button{
+    padding: 0.3rem 0.6rem;
+    /* margin-top: 0.5rem; */
+    position: absolute;
+    bottom: -12%;
+    left: 0;
+    background-color:#000;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.projectCard button:hover{
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+}
+
+.projectCard:hover{
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width:768px) {
+    .projectCard{
+        height: 16rem;
+        width: 80%;
+        /* background-color: olive; */
+        margin-bottom: 2rem;
+    }
+    
+    .projectCard img{
+        margin-bottom: 0.5rem;
+        border-bottom: 2px solid black;
+    }
+}

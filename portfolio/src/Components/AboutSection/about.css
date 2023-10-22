@@ -1,0 +1,217 @@
+body{
+    overflow-x: hidden;
+}
+.about{
+    width: 100vw;
+    height: 100vh;
+}
+.aboutSection{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+
+.about .a-left{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 23vh;
+}
+
+.a-left img{
+    width: 60%;
+    height: 70%;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about .a-right{
+    width: 55%;
+    height: 100%;
+    padding: 16vh 2rem 0 4rem; 
+}
+
+.a-right h2{
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+    text-align: left;
+}
+
+.aboutText{
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
+    text-align: justify;
+}
+
+.workandExperience{
+    margin-top: 1.5rem;
+}
+
+.w-buttons{
+    display: flex;
+    border: 2px solid #000;
+    margin-bottom: 1rem;  
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.w-buttons button{
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 12px;
+}
+
+/*-------------------------------------*/
+.workExperience{
+    width: 100%;
+    position: relative;
+    padding: 5% 0;
+    display: block;
+}
+.detailscard{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.info{
+    width: 50%;
+    /* background-color: red; */
+    height: 80%; 
+    padding: 0 1rem;
+    text-align: right;
+}
+.vertical-w{
+    border-left: 6px solid #000;
+    height: 9rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.circleIcon-a{
+    position: absolute;
+    top: 22.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.circleIcon-b{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.info-b{
+    width: 50%;
+    /* background-color: blue; */
+    height: 80%; 
+    padding: 0 1rem;
+}
+
+/*------------------*/
+.academics{
+    width: 100%;
+    position: relative;
+    padding: 5% 0;
+    /* display: block; */
+    display: none;
+
+}
+
+.vertical-a{
+    border-left: 6px solid #000;
+    height: 17rem;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.circleIcon-aa{
+    position: absolute;
+    top: 12.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.circleIcon-ba{
+    position: absolute;
+    top: 33.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.circleIcon-ca{
+    position: absolute;
+    top: 55.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.circleIcon-da{
+    position: absolute;
+    top: 75.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media screen and (min-width:768px) and (max-width:1100px){
+    
+.about .a-left{
+    width: 0%;
+    display: none;
+}
+
+    .about .a-right{
+        width: 100%;
+        height: 100%;
+        padding: 12vh 2rem 0 1rem; 
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .aboutSection{
+        flex-direction: column;
+    }
+
+    .about .a-left{
+        display: none;
+    }
+    .about .a-right{
+        width: 100%;
+        height: 100%;
+        padding: 12vh 0.5rem 0 0.5rem; 
+    }
+    .a-right h2{
+        font-size: 1.6rem;
+        margin-bottom: 0.2rem;
+        text-align: center;
+    }
+    .aboutText{
+        font-size: 1rem;
+        margin-top: 0.3rem;
+        text-align: justify;
+    }
+
+    .w-buttons button{
+        font-size: 0.8rem;
+    }
+    .about{
+        width: 100vw;
+        height: auto;
+    }
+    .aboutSection{
+        width: 90%;
+    }
+    .vertical-w{
+        height: 11rem;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}

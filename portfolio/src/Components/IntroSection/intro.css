@@ -1,0 +1,135 @@
+.intro{
+    height: 100vh;
+    width: 100vw;
+}
+.intro-section{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.i-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 28vh 1rem 0 6rem;
+    width: 55%;
+}
+
+.i-left h2{
+    font-size: 2rem;
+}
+.i-left h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #0802A3;
+}
+
+.i-left p{
+    font-size: 1.2rem;
+}
+
+.i-left button{
+    font-size: 1.3rem;
+    width: 50%;
+    padding: 0.8rem 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.2s ease-in-out;
+    margin: 1.2rem 0 1.4rem 0;
+}
+
+.i-left button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.i-right{
+    /* flex: 1; */
+    /* background-color: green; */
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i-right img{
+    height: 55%;
+    width: 55%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+}
+.connect{
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+.connect a{
+    text-decoration: none;
+    color: #000;
+    /* background-color: #000; */
+}
+@media screen and (min-width:768px) and (max-width:1100px) {
+    
+    .i-left{
+        gap: 1rem;
+        padding: 30vh 1rem 0 2rem;
+        width: 55%;
+    }
+
+    
+    .i-left h2{
+        font-size: 2rem;
+    }
+    .i-left h1{
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #0802A3;
+    }
+
+    .i-left p{
+        font-size: 1rem;
+    }
+
+    .i-left button{
+        width: 55%;
+        padding: 0.6rem 0.8rem;
+        margin: 1rem 0 1.2rem 0;
+    }
+
+    .i-right img{
+        width: 75%;
+        margin: 13vh 0 0 0;
+    }
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .intro{
+        height: auto;
+    }
+    .intro-section{
+        flex-direction: column;
+    }
+    .i-left{
+        gap: 0.5rem;
+        padding: 15vh 1rem 1.3rem 1.2rem;
+        width: 100%;
+    }
+        
+    .i-left button{
+        /* width: 45%; */
+        font-size: 1.2rem;
+        padding: 0.5rem 0.2rem;
+    }
+
+    .i-right{
+        width: 100%;
+    }
+
+    .i-right img{
+        margin: 1rem;
+    }
+}
